@@ -1,0 +1,165 @@
+body{
+	background-image: url("blueTiles.jpg")	
+}
+
+#all{
+	width: 1000px;
+	height: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px double black;
+	background-color: white;	
+}
+
+.h2Font{
+	color: #212f3d ;
+	font-style: italic;
+}
+
+.mid {
+	margin: auto;
+	margin-top: 50px;
+	width: 950px;
+	height: 450px;
+	border: gray 3px solid;	
+}
+
+#head{
+	background-color: #ecf0f1;
+	border-bottom: 3px solid black;
+	text-align: center;
+	width: 1000px;
+	padding-top: 1em;
+}
+
+#mid1{
+	width: 910px;
+	height: 410px;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+#menu ul{
+	margin-left: -2.5em;	
+}
+
+#menu li{
+	list-style-type: none;
+	width: 250px;
+	text-align: center;
+	float: left;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	background-color: black;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	border-radius: 8px;
+	border: 3px outset #EEEEFF;
+}
+
+#menu a:hover {
+	background-color: #DDDDEE;
+	color: black;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 2px;
+	border: 3px outset #EEEEFF;
+}
+
+#left{
+	margin-top: 1em;
+	margin-left: 1em;
+	text-align: center;
+	float: left;
+	width: 460px;
+	height: 310px;
+	clear: left;
+	border-right: 1px solid black;
+	padding-right: .5em;
+	border: gray 3px solid;
+	background-color: #ecf0f1;
+}
+
+#right{
+	margin-top: 1em;
+	margin-left: 1em;
+	text-align: center;
+	float: left;
+	width: 460px;
+	height: 310px;
+	padding-left: .5em;
+	border: gray 3px solid;
+	background-color: #ecf0f1;
+}
+
+#h2Title{
+	text-align: center;
+	margin: auto;
+	font-family: "Bradley Hand ITC", cursive;
+	width: 75%;
+}
+
+.shadow {
+	box-shadow: 10px 10px 10px #000000;
+	height: 200px;
+	width: 200px;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 5px;	
+	background-color: #EEEEEE;
+}
+
+.list{
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;;
+	font-size: 1.2em;
+	margin-right: 1em;
+}
+
+.h3Class{
+	padding-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	color: #023062;
+	border-top: black 1px solid;
+}
+
+.para{
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	color:  #666666;
+	text-align: justify; 
+}
+
+#form1{
+	width: 420px;
+	margin-left: 20em;
+	border: black 1px solid;
+}
+
+#form2{
+	font-family: "Times New Roman", Times, serif;
+	width: 225px;
+	margin-left: 25em;
+	border: black 1px solid;
+}
+
+#form3{
+	width: 460px;
+	margin-left: 20em;
+}
+
+.OutFont{
+	color: #212f3d;
+	font-style: oblique;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	margin-left: 1.2em;
+	margin-bottom:1em;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	 <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Robot Uprising</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" 
+        		type="text/css" 
+        		href="FurryLlamaStyle.css" />
+        <script type="text/javascript"  src="FurryLlama.js"></script>
+    </head>
+    <body onload="clear()">
+    	<div id="all">
+    		<div id="head">
+    			<h2 class="h2Font"> Robot  </h2>
+    			<h2 class="h2Font"> Uprising </h2>
+    		</div>
+    		<div id="menu">
+    			<ul>
+    				<li> <a href="index.html"> Home </a></li>
+    				<li> <a href="RobotUprising.html"> AI takeover </a></li>
+    				<li> <a href="SuperLlama.html"> Super Llama </a></li>
+    				<li> <a href="AboutMe.html"> AboutMe </a></li>
+    			</ul>
+    		</div>
+    		<div class="mid">
+   				<img id="mid1" src="robots.jpg" onmouseover="changeImage1()"
+					alt="Robot Uprising Images"/>		
+    		</div>
+    		
+    		<div>
+    			<h3 class="h3Class"> Advantages of Robots </h3>
+    			<p class="para">
+    				A robot with Artificial Intelligence (AI) is capable of doing every strategically 
+    				relevant task as well as a human, but that continues to retain all the advantages of a 
+    				computer, would have many advantages when competing with humans for control. A computer 
+    				program, unlike a human, has the ability to quickly reproduce itself, to upgrade itself 
+    				onto better hardware as it becomes available, and might have the capacity for perfect 
+    				recall of a vast knowledge base. 
+    			</p>
+    			<h3 class="h3Class"> The AI threat </h3>
+    			<p class="para">
+    				AI takeover refers to a hypothetical scenario in which artificial intelligence (AI) 
+    				becomes the dominant form of intelligence on Earth, with computers or robots effectively 
+    				taking control of the planet away from the human race. Possible scenarios include a 
+    				takeover by a superintelligent AI and the popular notion of a robot uprising. 
+    			</p>
+    		</div>
+    		
+    			<h3 class="h3Class"> Conflict Inevitable </h3>
+    			<p class="para">
+    				For an AI takeover to be inevitable, it has to be postulated that two intelligent species cannot 
+    				pursue mutually the goals of coexisting peacefully in an overlapping environment—especially if one 
+    				is of much more advanced intelligence and much more powerful. While an AI takeover is thus a possible 
+    				result of the invention of artificial intelligence, a peaceful outcome is not necessarily impossible. 
+    			</p>
+    			<h3 class="h3Class"> What is your opinion on Robot Uprising ? </h3>
+    			<p class="para">
+    				Enter your name and press submit.
+    			</p>
+    			<form action="" id="form1">
+    				<fieldset>
+    					<label>Name</label>
+    					<input type="text" 
+    							id="txtName"/>
+    					<button type = "button" 
+							onclick = "nameSubmit()">
+							Submit
+						</button>
+    				</fieldset>
+    			</form>
+    			<p class="para">
+    				Do you feel Robots pose a threat ? 
+    				Enter yes or no.
+    			</p>
+    		<form action = "" id="form2">
+				<fieldset>
+					<input type = "radio"
+							name = "choice"
+							id = "radYes"
+							value = "Yes"
+							checked = "checked" />
+					<label for = "radYes">Yes</label>
+					<input type = "radio"
+							name = "choice"
+							id = "radNo"
+							value = "No" 
+							checked="checked" />
+					<label for = "radNo">No</label>
+					<button type 	= "button" 
+							onclick = "opinion()">
+							Enter
+					</button>
+				</fieldset>
+			</form>
+			<div class="OutFont" id="output"> </div>
+    	</div>
+    </body>
+</html>
+
